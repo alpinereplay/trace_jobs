@@ -1,0 +1,6 @@
+framework module TraceJobs {
+  umbrella header "TraceJobs-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,14 @@
+PODS:
+  - TraceJobs (0.1.0)
+
+DEPENDENCIES:
+  - TraceJobs (from `../`)
+
+EXTERNAL SOURCES:
+  TraceJobs:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TraceJobs: 377a5cec7957b4216c751fe43991556b403bcc8e
+
+COCOAPODS: 0.38.2

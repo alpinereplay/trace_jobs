@@ -1,0 +1,6 @@
+framework module Pods_TraceJobs_Example {
+  umbrella header "Pods-TraceJobs_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
