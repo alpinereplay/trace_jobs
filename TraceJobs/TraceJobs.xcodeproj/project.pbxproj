@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DCC2FF51BD3303E0034C6A3 /* TraceJobs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2DCC2FF41BD3303E0034C6A3 /* TraceJobs.h */; };
+		2DCC30041BD330560034C6A3 /* TRCJobQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC2FFF1BD330560034C6A3 /* TRCJobQueue.m */; settings = {ASSET_TAGS = (); }; };
+		2DCC30051BD330560034C6A3 /* TRCJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC30011BD330560034C6A3 /* TRCJob.m */; settings = {ASSET_TAGS = (); }; };
+		2DCC300D1BD3817F0034C6A3 /* TraceJobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC300C1BD3817F0034C6A3 /* TraceJobTests.m */; };
+		2DCC300F1BD3817F0034C6A3 /* libTraceJobs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCC2FF11BD3303E0034C6A3 /* libTraceJobs.a */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DCC30101BD3817F0034C6A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DCC2FE91BD3303E0034C6A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DCC2FF01BD3303E0034C6A3;
+			remoteInfo = TraceJobs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2DCC2FEF1BD3303E0034C6A3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2DCC2FF51BD3303E0034C6A3 /* TraceJobs.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2DCC2FF11BD3303E0034C6A3 /* libTraceJobs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTraceJobs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCC2FF41BD3303E0034C6A3 /* TraceJobs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraceJobs.h; sourceTree = "<group>"; };
+		2DCC2FFD1BD330560034C6A3 /* TRCJobDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCJobDelegate.h; sourceTree = "<group>"; };
+		2DCC2FFE1BD330560034C6A3 /* TRCJobQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCJobQueue.h; sourceTree = "<group>"; };
+		2DCC2FFF1BD330560034C6A3 /* TRCJobQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCJobQueue.m; sourceTree = "<group>"; };
+		2DCC30001BD330560034C6A3 /* TRCJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCJob.h; sourceTree = "<group>"; };
+		2DCC30011BD330560034C6A3 /* TRCJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRCJob.m; sourceTree = "<group>"; };
+		2DCC30021BD330560034C6A3 /* TRCJobQueueDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRCJobQueueDelegate.h; sourceTree = "<group>"; };
+		2DCC300A1BD3817F0034C6A3 /* TraceJobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraceJobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCC300C1BD3817F0034C6A3 /* TraceJobTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraceJobTests.m; sourceTree = "<group>"; };
+		2DCC300E1BD3817F0034C6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DCC2FEE1BD3303E0034C6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCC30071BD3817F0034C6A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCC300F1BD3817F0034C6A3 /* libTraceJobs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DCC2FE81BD3303E0034C6A3 = {
+			isa = PBXGroup;
+			children = (
+				2DCC2FF31BD3303E0034C6A3 /* TraceJobs */,
+				2DCC300B1BD3817F0034C6A3 /* TraceJobTests */,
+				2DCC2FF21BD3303E0034C6A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DCC2FF21BD3303E0034C6A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DCC2FF11BD3303E0034C6A3 /* libTraceJobs.a */,
+				2DCC300A1BD3817F0034C6A3 /* TraceJobTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DCC2FF31BD3303E0034C6A3 /* TraceJobs */ = {
+			isa = PBXGroup;
+			children = (
+				2DCC2FF41BD3303E0034C6A3 /* TraceJobs.h */,
+				2DCC2FFD1BD330560034C6A3 /* TRCJobDelegate.h */,
+				2DCC2FFE1BD330560034C6A3 /* TRCJobQueue.h */,
+				2DCC2FFF1BD330560034C6A3 /* TRCJobQueue.m */,
+				2DCC30001BD330560034C6A3 /* TRCJob.h */,
+				2DCC30011BD330560034C6A3 /* TRCJob.m */,
+				2DCC30021BD330560034C6A3 /* TRCJobQueueDelegate.h */,
+			);
+			path = TraceJobs;
+			sourceTree = "<group>";
+		};
+		2DCC300B1BD3817F0034C6A3 /* TraceJobTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DCC300C1BD3817F0034C6A3 /* TraceJobTests.m */,
+				2DCC300E1BD3817F0034C6A3 /* Info.plist */,
+			);
+			path = TraceJobTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DCC2FF01BD3303E0034C6A3 /* TraceJobs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DCC2FFA1BD3303E0034C6A3 /* Build configuration list for PBXNativeTarget "TraceJobs" */;
+			buildPhases = (
+				2DCC2FED1BD3303E0034C6A3 /* Sources */,
+				2DCC2FEE1BD3303E0034C6A3 /* Frameworks */,
+				2DCC2FEF1BD3303E0034C6A3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TraceJobs;
+			productName = TraceJobs;
+			productReference = 2DCC2FF11BD3303E0034C6A3 /* libTraceJobs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2DCC30091BD3817F0034C6A3 /* TraceJobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DCC30121BD3817F0034C6A3 /* Build configuration list for PBXNativeTarget "TraceJobTests" */;
+			buildPhases = (
+				2DCC30061BD3817F0034C6A3 /* Sources */,
+				2DCC30071BD3817F0034C6A3 /* Frameworks */,
+				2DCC30081BD3817F0034C6A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DCC30111BD3817F0034C6A3 /* PBXTargetDependency */,
+			);
+			name = TraceJobTests;
+			productName = TraceJobTests;
+			productReference = 2DCC300A1BD3817F0034C6A3 /* TraceJobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DCC2FE91BD3303E0034C6A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Trace;
+				TargetAttributes = {
+					2DCC2FF01BD3303E0034C6A3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					2DCC30091BD3817F0034C6A3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 2DCC2FEC1BD3303E0034C6A3 /* Build configuration list for PBXProject "TraceJobs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DCC2FE81BD3303E0034C6A3;
+			productRefGroup = 2DCC2FF21BD3303E0034C6A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DCC2FF01BD3303E0034C6A3 /* TraceJobs */,
+				2DCC30091BD3817F0034C6A3 /* TraceJobTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DCC30081BD3817F0034C6A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DCC2FED1BD3303E0034C6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCC30051BD330560034C6A3 /* TRCJob.m in Sources */,
+				2DCC30041BD330560034C6A3 /* TRCJobQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DCC30061BD3817F0034C6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCC300D1BD3817F0034C6A3 /* TraceJobTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DCC30111BD3817F0034C6A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DCC2FF01BD3303E0034C6A3 /* TraceJobs */;
+			targetProxy = 2DCC30101BD3817F0034C6A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DCC2FF81BD3303E0034C6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DCC2FF91BD3303E0034C6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DCC2FFB1BD3303E0034C6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2DCC2FFC1BD3303E0034C6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2DCC30131BD3817F0034C6A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TraceJobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.traceup.TraceJobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2DCC30141BD3817F0034C6A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TraceJobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.traceup.TraceJobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DCC2FEC1BD3303E0034C6A3 /* Build configuration list for PBXProject "TraceJobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCC2FF81BD3303E0034C6A3 /* Debug */,
+				2DCC2FF91BD3303E0034C6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DCC2FFA1BD3303E0034C6A3 /* Build configuration list for PBXNativeTarget "TraceJobs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCC2FFB1BD3303E0034C6A3 /* Debug */,
+				2DCC2FFC1BD3303E0034C6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2DCC30121BD3817F0034C6A3 /* Build configuration list for PBXNativeTarget "TraceJobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCC30131BD3817F0034C6A3 /* Debug */,
+				2DCC30141BD3817F0034C6A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DCC2FE91BD3303E0034C6A3 /* Project object */;
+}
