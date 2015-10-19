@@ -7,57 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		192C97B31C8A25BF41004FE113678BE4 /* TraceJobs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F3CA40FF4158365343172B588B7997A /* TraceJobs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E518990BDBC7A1D2FAD2FDF26A126A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF4AF83B17543FBCE528A43531E3E60 /* Foundation.framework */; };
+		037C19FD74D42695F3B68E91666F99D2 /* TRCJobQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 23577C4A7456C3D64F84AACAADFD4866 /* TRCJobQueue.m */; };
+		05D109AB0A8D1BB62C0CF50C96776C53 /* TRCJobQueueDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 19EF3879E93CC908EAF1FB866C098860 /* TRCJobQueueDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BADCAA621FA1F603CFFA6A17C95059A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07431B61B909652C189D45CF7705F24 /* Foundation.framework */; };
+		213622DD4F5018A7D572CD359B18079D /* TraceJobs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5705414A25D2C23B566F962AF55D66 /* TraceJobs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21A5078A02F95AE42BCAE15FE9B71A16 /* TRCJob.m in Sources */ = {isa = PBXBuildFile; fileRef = CE55961A9790865F8B8895C31BA2824A /* TRCJob.m */; };
 		4B202848119471BC9D56D9EB7294CEB4 /* Pods-TraceJobs_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61598F143DF955CE9B7475424F79DE4F /* Pods-TraceJobs_Tests-dummy.m */; };
+		4DFD68A46E7F507757B2CF9BF577B0B0 /* TRCJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F61D69BA332700B8074976CC81DEDE1 /* TRCJob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55772D24170708C6CC25349A1CA1F351 /* TraceJobs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E600F704DF50C779ED61CCA1F14C15 /* TraceJobs-dummy.m */; };
+		5852E212031A85357214260DB93DC818 /* TraceJobs.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCEB86299F6382CC2066C4E11AA4B21 /* TraceJobs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BD58524DE60E0541DB91CC33AF1F19B /* Pods-TraceJobs_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A5F435B0595541B178CCE3E0204B7AD /* Pods-TraceJobs_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6495743DC0C082B1DAA41B55871B07AB /* TraceJobs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E20E8EC696A7970DC2C06D78D4B07970 /* TraceJobs.bundle */; };
 		74827E2B4472BB63378AAC9BE66720F7 /* Pods-TraceJobs_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B025B8441061416A77753867917B18 /* Pods-TraceJobs_Example-dummy.m */; };
+		82311D7C6EAF07BF149D46BF0A61036C /* TRCJobDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF11A3060A906B5DED6C6E59E3BC1E1 /* TRCJobDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DF21EDB34C6E770913C95E64C9275C5 /* Pods-TraceJobs_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA0F651E3B57C74CF156A9C211E474DE /* Pods-TraceJobs_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAC7674F92A4AE6BE96F9F479A1AFCBF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D59326E52FB5BC96C003DAB30379F8 /* ReplaceMe.m */; };
-		E467EFB13FAA5C48D83B1FE92540BB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF4AF83B17543FBCE528A43531E3E60 /* Foundation.framework */; };
-		EAB832034914997FA754C631D7012B22 /* TraceJobs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690311098B67B96DDC6A54E035BB8542 /* TraceJobs-dummy.m */; };
-		F195BF55E41C3C59398208D05A15E714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF4AF83B17543FBCE528A43531E3E60 /* Foundation.framework */; };
+		9F2E4C353D38D334D12A8B7DDF9A03B3 /* TRCJobQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = D22B6D4587C9EEAFB40B39DE3C9366C8 /* TRCJobQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E467EFB13FAA5C48D83B1FE92540BB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07431B61B909652C189D45CF7705F24 /* Foundation.framework */; };
+		F195BF55E41C3C59398208D05A15E714 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C07431B61B909652C189D45CF7705F24 /* Foundation.framework */; };
+		F9FD43FC7978F8C44BFDC8943376591D /* TraceJobs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E20E8EC696A7970DC2C06D78D4B07970 /* TraceJobs.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0968ED390F3A95FDCB3D0775B29C5342 /* PBXContainerItemProxy */ = {
+		301A96D90D344777177B3165276B89EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C99E796ED2ADE095AE4C2CF8AFB3E4CA;
+			remoteGlobalIDString = D2A65BCA69F6C3A411ED2C0EF0B3600D;
 			remoteInfo = TraceJobs;
 		};
-		4766CF64ED131D864655E1FE06E23C54 /* PBXContainerItemProxy */ = {
+		C9A93B0D2F031D570D45BC82BA5BE99E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2A65BCA69F6C3A411ED2C0EF0B3600D;
+			remoteInfo = TraceJobs;
+		};
+		E6159B44029574485B34DDDABF798FEF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F51FE3BB42881FF34F27CB74B882D1DA;
 			remoteInfo = "TraceJobs-TraceJobs";
 		};
-		75F56E247D0C2B06334CB07FF0FF6D39 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C99E796ED2ADE095AE4C2CF8AFB3E4CA;
-			remoteInfo = TraceJobs;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		10A992A82C241EA0E14B791F4DF79040 /* Pods-TraceJobs_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TraceJobs_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		126D6FB1534DB5CE9270C064E199A0CE /* Pods-TraceJobs_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TraceJobs_Example-frameworks.sh"; sourceTree = "<group>"; };
+		19EF3879E93CC908EAF1FB866C098860 /* TRCJobQueueDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRCJobQueueDelegate.h; sourceTree = "<group>"; };
 		1DB88A7B69FFDC956612D3C63D708333 /* Pods-TraceJobs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TraceJobs_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1F3CA40FF4158365343172B588B7997A /* TraceJobs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TraceJobs-umbrella.h"; sourceTree = "<group>"; };
+		23577C4A7456C3D64F84AACAADFD4866 /* TRCJobQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRCJobQueue.m; sourceTree = "<group>"; };
+		300BEAE19F68360C6F7B94B9A94CDC55 /* TraceJobs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TraceJobs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FE5E0D24B089AD9590F05F46313168 /* TraceJobs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TraceJobs-prefix.pch"; sourceTree = "<group>"; };
-		4AF4AF83B17543FBCE528A43531E3E60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A5705414A25D2C23B566F962AF55D66 /* TraceJobs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TraceJobs-umbrella.h"; sourceTree = "<group>"; };
+		4F61D69BA332700B8074976CC81DEDE1 /* TRCJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRCJob.h; sourceTree = "<group>"; };
 		5382F7B1910A1EE7B58D2B222D421230 /* Pods_TraceJobs_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraceJobs_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59852C28D2AD9F68CB9E7A236EBC975F /* Pods-TraceJobs_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TraceJobs_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		60DD66D75529F88E79F86E79078896A5 /* Pods-TraceJobs_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TraceJobs_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		61598F143DF955CE9B7475424F79DE4F /* Pods-TraceJobs_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TraceJobs_Tests-dummy.m"; sourceTree = "<group>"; };
 		6710CB537500C5589E5BDA48CD307BCB /* Pods-TraceJobs_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TraceJobs_Tests.modulemap"; sourceTree = "<group>"; };
-		690311098B67B96DDC6A54E035BB8542 /* TraceJobs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TraceJobs-dummy.m"; sourceTree = "<group>"; };
 		7224EBBE153BCD5259FED12F64D0F950 /* Pods_TraceJobs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TraceJobs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74E600F704DF50C779ED61CCA1F14C15 /* TraceJobs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TraceJobs-dummy.m"; sourceTree = "<group>"; };
 		7A5F435B0595541B178CCE3E0204B7AD /* Pods-TraceJobs_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TraceJobs_Example-umbrella.h"; sourceTree = "<group>"; };
 		7DBEEF660A25A6C11B01BFB5F8E04C41 /* Pods-TraceJobs_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TraceJobs_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		85CF89505E382BADB509EC2ED3746F70 /* Pods-TraceJobs_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TraceJobs_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -67,7 +76,10 @@
 		AA0F651E3B57C74CF156A9C211E474DE /* Pods-TraceJobs_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TraceJobs_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AF0D4185C38F2531EE427865686C7AC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D3D59326E52FB5BC96C003DAB30379F8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		C07431B61B909652C189D45CF7705F24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE55961A9790865F8B8895C31BA2824A /* TRCJob.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRCJob.m; sourceTree = "<group>"; };
+		D22B6D4587C9EEAFB40B39DE3C9366C8 /* TRCJobQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRCJobQueue.h; sourceTree = "<group>"; };
+		DAF11A3060A906B5DED6C6E59E3BC1E1 /* TRCJobDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRCJobDelegate.h; sourceTree = "<group>"; };
 		DD5A6ED63AA57D275B972316FE0F5D5D /* Pods-TraceJobs_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TraceJobs_Example-resources.sh"; sourceTree = "<group>"; };
 		E032BA3B20FDCAD9F017037E4D2A0F01 /* TraceJobs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TraceJobs.xcconfig; sourceTree = "<group>"; };
 		E20E8EC696A7970DC2C06D78D4B07970 /* TraceJobs.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraceJobs.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,19 +89,11 @@
 		E7EB243C45E1CEAC1EFC146E196F298E /* TraceJobs-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TraceJobs-Private.xcconfig"; sourceTree = "<group>"; };
 		EE14A3371939009EF6F620F769C995C7 /* Pods-TraceJobs_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TraceJobs_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0B025B8441061416A77753867917B18 /* Pods-TraceJobs_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TraceJobs_Example-dummy.m"; sourceTree = "<group>"; };
-		FC0743A72C39F83D0CC25E01AEB69367 /* TraceJobs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TraceJobs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCEB86299F6382CC2066C4E11AA4B21 /* TraceJobs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TraceJobs.h; sourceTree = "<group>"; };
 		FFCFB6C5C9758DD0CC5123020FBCC8F0 /* Pods-TraceJobs_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TraceJobs_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0DC250B494FC819827257F1087B64196 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1E518990BDBC7A1D2FAD2FDF26A126A7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		118D56E564CB5F232FE45740FFDFB771 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,6 +109,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65D99BF0BFCD7F7EAF042C062691BB70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BADCAA621FA1F603CFFA6A17C95059A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B07A76A85A9987AF57C1AC1424C60EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -116,10 +128,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216E7E1952347D2FC33A16DAB52BF835 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F4247DA0423F5AE63D8E836F02A235C2 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 		2E9F0E7A59F8B7867CDE43B0E4884A38 /* TraceJobs */ = {
 			isa = PBXGroup;
 			children = (
-				B10EE237358BB3159E57F2EB20942FE2 /* Pod */,
+				216E7E1952347D2FC33A16DAB52BF835 /* Pod */,
 				E301C57FD32004D3E37DF36FD34E560D /* Support Files */,
 			);
 			name = TraceJobs;
@@ -144,18 +164,10 @@
 			path = "Target Support Files/Pods-TraceJobs_Tests";
 			sourceTree = "<group>";
 		};
-		4F05F4533C3CB4736AA83CA71149E4C7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D3D59326E52FB5BC96C003DAB30379F8 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4AF4AF83B17543FBCE528A43531E3E60 /* Foundation.framework */,
+				C07431B61B909652C189D45CF7705F24 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -179,14 +191,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B10EE237358BB3159E57F2EB20942FE2 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4F05F4533C3CB4736AA83CA71149E4C7 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,7 +205,7 @@
 				7224EBBE153BCD5259FED12F64D0F950 /* Pods_TraceJobs_Example.framework */,
 				5382F7B1910A1EE7B58D2B222D421230 /* Pods_TraceJobs_Tests.framework */,
 				E20E8EC696A7970DC2C06D78D4B07970 /* TraceJobs.bundle */,
-				FC0743A72C39F83D0CC25E01AEB69367 /* TraceJobs.framework */,
+				300BEAE19F68360C6F7B94B9A94CDC55 /* TraceJobs.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,9 +235,9 @@
 				E4ED3CB534727E564E52D2842DE36846 /* TraceJobs.modulemap */,
 				E032BA3B20FDCAD9F017037E4D2A0F01 /* TraceJobs.xcconfig */,
 				E7EB243C45E1CEAC1EFC146E196F298E /* TraceJobs-Private.xcconfig */,
-				690311098B67B96DDC6A54E035BB8542 /* TraceJobs-dummy.m */,
+				74E600F704DF50C779ED61CCA1F14C15 /* TraceJobs-dummy.m */,
 				44FE5E0D24B089AD9590F05F46313168 /* TraceJobs-prefix.pch */,
-				1F3CA40FF4158365343172B588B7997A /* TraceJobs-umbrella.h */,
+				4A5705414A25D2C23B566F962AF55D66 /* TraceJobs-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TraceJobs";
@@ -248,22 +252,41 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F4247DA0423F5AE63D8E836F02A235C2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F61D69BA332700B8074976CC81DEDE1 /* TRCJob.h */,
+				CE55961A9790865F8B8895C31BA2824A /* TRCJob.m */,
+				DAF11A3060A906B5DED6C6E59E3BC1E1 /* TRCJobDelegate.h */,
+				D22B6D4587C9EEAFB40B39DE3C9366C8 /* TRCJobQueue.h */,
+				23577C4A7456C3D64F84AACAADFD4866 /* TRCJobQueue.m */,
+				19EF3879E93CC908EAF1FB866C098860 /* TRCJobQueueDelegate.h */,
+				FCCEB86299F6382CC2066C4E11AA4B21 /* TraceJobs.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3450B0AD55A514410521743D6F0FBD50 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				192C97B31C8A25BF41004FE113678BE4 /* TraceJobs-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		623CBAE541126DF0C9AF9609223E3647 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5BD58524DE60E0541DB91CC33AF1F19B /* Pods-TraceJobs_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECB84D98D9861D869E73D32DB063613 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFD68A46E7F507757B2CF9BF577B0B0 /* TRCJob.h in Headers */,
+				82311D7C6EAF07BF149D46BF0A61036C /* TRCJobDelegate.h in Headers */,
+				9F2E4C353D38D334D12A8B7DDF9A03B3 /* TRCJobQueue.h in Headers */,
+				05D109AB0A8D1BB62C0CF50C96776C53 /* TRCJobQueueDelegate.h in Headers */,
+				213622DD4F5018A7D572CD359B18079D /* TraceJobs-umbrella.h in Headers */,
+				5852E212031A85357214260DB93DC818 /* TraceJobs.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +312,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				45059A72D855AD4245F13C590EC5BDB4 /* PBXTargetDependency */,
+				AE445713AAF629CCA7A685AB39A700E4 /* PBXTargetDependency */,
 			);
 			name = "Pods-TraceJobs_Example";
 			productName = "Pods-TraceJobs_Example";
@@ -307,30 +330,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				D13566FE7C3F8F0BC7D2B9B315664250 /* PBXTargetDependency */,
+				B9EFBE1B6CB6F6A492A15D388E9E328F /* PBXTargetDependency */,
 			);
 			name = "Pods-TraceJobs_Tests";
 			productName = "Pods-TraceJobs_Tests";
 			productReference = 5382F7B1910A1EE7B58D2B222D421230 /* Pods_TraceJobs_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C99E796ED2ADE095AE4C2CF8AFB3E4CA /* TraceJobs */ = {
+		D2A65BCA69F6C3A411ED2C0EF0B3600D /* TraceJobs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E083D9687AE956BD6C8AD046823BD26D /* Build configuration list for PBXNativeTarget "TraceJobs" */;
+			buildConfigurationList = 39D92E5FD2224269FE4B3282D2B7C0C1 /* Build configuration list for PBXNativeTarget "TraceJobs" */;
 			buildPhases = (
-				4823EB6D0F3496B29B58161C053CC36D /* Sources */,
-				0DC250B494FC819827257F1087B64196 /* Frameworks */,
-				6B126AA678BF635BDFC65042FEB94FB7 /* Resources */,
-				3450B0AD55A514410521743D6F0FBD50 /* Headers */,
+				751F21A44D82B25A70074FE7CE711C08 /* Sources */,
+				65D99BF0BFCD7F7EAF042C062691BB70 /* Frameworks */,
+				D4E7A0761F6089DC1BA4F862E57BB08F /* Resources */,
+				6ECB84D98D9861D869E73D32DB063613 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				06C7CF584D5BE98F08A89B97366A5861 /* PBXTargetDependency */,
+				A94E567B9C6D98F998241E904716AA84 /* PBXTargetDependency */,
 			);
 			name = TraceJobs;
 			productName = TraceJobs;
-			productReference = FC0743A72C39F83D0CC25E01AEB69367 /* TraceJobs.framework */;
+			productReference = 300BEAE19F68360C6F7B94B9A94CDC55 /* TraceJobs.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F51FE3BB42881FF34F27CB74B882D1DA /* TraceJobs-TraceJobs */ = {
@@ -373,7 +396,7 @@
 			targets = (
 				27EEEAB9EE161F628400D1FDBAF83C3D /* Pods-TraceJobs_Example */,
 				380130A3373C2B58E711A4C617F4CDC3 /* Pods-TraceJobs_Tests */,
-				C99E796ED2ADE095AE4C2CF8AFB3E4CA /* TraceJobs */,
+				D2A65BCA69F6C3A411ED2C0EF0B3600D /* TraceJobs */,
 				F51FE3BB42881FF34F27CB74B882D1DA /* TraceJobs-TraceJobs */,
 			);
 		};
@@ -387,11 +410,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B126AA678BF635BDFC65042FEB94FB7 /* Resources */ = {
+		D4E7A0761F6089DC1BA4F862E57BB08F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6495743DC0C082B1DAA41B55871B07AB /* TraceJobs.bundle in Resources */,
+				F9FD43FC7978F8C44BFDC8943376591D /* TraceJobs.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,15 +425,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4823EB6D0F3496B29B58161C053CC36D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AAC7674F92A4AE6BE96F9F479A1AFCBF /* ReplaceMe.m in Sources */,
-				EAB832034914997FA754C631D7012B22 /* TraceJobs-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,26 +444,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		751F21A44D82B25A70074FE7CE711C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21A5078A02F95AE42BCAE15FE9B71A16 /* TRCJob.m in Sources */,
+				037C19FD74D42695F3B68E91666F99D2 /* TRCJobQueue.m in Sources */,
+				55772D24170708C6CC25349A1CA1F351 /* TraceJobs-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06C7CF584D5BE98F08A89B97366A5861 /* PBXTargetDependency */ = {
+		A94E567B9C6D98F998241E904716AA84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TraceJobs-TraceJobs";
 			target = F51FE3BB42881FF34F27CB74B882D1DA /* TraceJobs-TraceJobs */;
-			targetProxy = 4766CF64ED131D864655E1FE06E23C54 /* PBXContainerItemProxy */;
+			targetProxy = E6159B44029574485B34DDDABF798FEF /* PBXContainerItemProxy */;
 		};
-		45059A72D855AD4245F13C590EC5BDB4 /* PBXTargetDependency */ = {
+		AE445713AAF629CCA7A685AB39A700E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TraceJobs;
-			target = C99E796ED2ADE095AE4C2CF8AFB3E4CA /* TraceJobs */;
-			targetProxy = 75F56E247D0C2B06334CB07FF0FF6D39 /* PBXContainerItemProxy */;
+			target = D2A65BCA69F6C3A411ED2C0EF0B3600D /* TraceJobs */;
+			targetProxy = C9A93B0D2F031D570D45BC82BA5BE99E /* PBXContainerItemProxy */;
 		};
-		D13566FE7C3F8F0BC7D2B9B315664250 /* PBXTargetDependency */ = {
+		B9EFBE1B6CB6F6A492A15D388E9E328F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TraceJobs;
-			target = C99E796ED2ADE095AE4C2CF8AFB3E4CA /* TraceJobs */;
-			targetProxy = 0968ED390F3A95FDCB3D0775B29C5342 /* PBXContainerItemProxy */;
+			target = D2A65BCA69F6C3A411ED2C0EF0B3600D /* TraceJobs */;
+			targetProxy = 301A96D90D344777177B3165276B89EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -568,6 +592,33 @@
 			};
 			name = Debug;
 		};
+		2C4700A57805569BBDE07B3C295C107E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7EB243C45E1CEAC1EFC146E196F298E /* TraceJobs-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TraceJobs/TraceJobs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TraceJobs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TraceJobs/TraceJobs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TraceJobs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		47AB7A7044A0BC04D26E628B07CAC0EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 963A91031900497CFBD09F0228B97A4E /* Pods-TraceJobs_Example.release.xcconfig */;
@@ -667,34 +718,7 @@
 			};
 			name = Release;
 		};
-		C111841223AB349143C88F7090BB163F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7EB243C45E1CEAC1EFC146E196F298E /* TraceJobs-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TraceJobs/TraceJobs-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TraceJobs/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TraceJobs/TraceJobs.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TraceJobs;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E26E21BD159F3CD8D286D4631AAE5E47 /* Release */ = {
+		A7D8E5A21144A594B0949481FAEFE15D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E7EB243C45E1CEAC1EFC146E196F298E /* TraceJobs-Private.xcconfig */;
 			buildSettings = {
@@ -751,11 +775,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E083D9687AE956BD6C8AD046823BD26D /* Build configuration list for PBXNativeTarget "TraceJobs" */ = {
+		39D92E5FD2224269FE4B3282D2B7C0C1 /* Build configuration list for PBXNativeTarget "TraceJobs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C111841223AB349143C88F7090BB163F /* Debug */,
-				E26E21BD159F3CD8D286D4631AAE5E47 /* Release */,
+				2C4700A57805569BBDE07B3C295C107E /* Debug */,
+				A7D8E5A21144A594B0949481FAEFE15D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

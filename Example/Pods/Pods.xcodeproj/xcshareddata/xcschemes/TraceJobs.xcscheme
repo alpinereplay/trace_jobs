@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "851357542EABE3CF29520E68"
+               BlueprintIdentifier = "7EB71719ACC688A293A84DA4"
                BuildableName = "TraceJobs.framework"
                BlueprintName = "TraceJobs"
                ReferencedContainer = "container:Pods.xcodeproj">
