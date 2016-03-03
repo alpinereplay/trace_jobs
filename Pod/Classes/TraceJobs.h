@@ -6,14 +6,12 @@
 //  Copyright © 2015 Trace. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#ifndef TraceJobs_h
+#define TraceJobs_h
 
-#ifndef TraceKit_TKJobs_h
-#define TraceKit_TKJobs_h
-
-#import "TKJobQueue.h"
-#import "TKJob.h"
-#import "TKJobQueueDelegate.h"
-#import "TKJobDelegate.h"
+#import "TRCJobQueue.h"
+#import "TRCJob.h"
+#import "TRCJobQueueDelegate.h"
+#import "TRCJobDelegate.h"
 
 #endif
