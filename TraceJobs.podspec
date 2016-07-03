@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "TraceJobs"
   s.version          = "0.1.0"
-  s.summary          = "A short description of TraceJobs."
+  s.summary          = "Trace Jobs is a job queueing library that allows you the create jobs and submit them to a job queue. This allows you to create reusable blocks of code."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,6 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+  ## Trace Jobs
+  Trace Jobs is a job queueing library that allows you the create jobs and submit them to a job queue.
+  This allows you to create reusable blocks of code.
                        DESC
 
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/TraceJobs"
